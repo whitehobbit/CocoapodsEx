@@ -24,11 +24,11 @@ tags: ios, swift, whitehobit, git, github, Xcode Package Manager, cocoapods, Swi
 
 Xcode에서 프로젝트 생성시 아래 그림과 같이 git에 체크해준다.
 
-![Xcode에서 git 생성]()
+![Xcode에서 git 생성](https://github.com/whitehobbit/CocoapodsEx/blob/master/iOS%20Study/git.png?raw=true)
 
 프로젝트 생성과 동시에 로컬 저장소를 이용하는 git과 바로 연동이 된다.
 
-연동이 된 이후에는 Xcode 상단에 존재하는 메뉴바의 `Source Control` 탭에서 push, pull, commit이 가능하다.
+연동이 된 이후에는 Xcode 상단에 존재하는 메뉴바의 `Source Control` 탭에서 push, pull, commit 등이 가능하다.
 
 
 
@@ -220,7 +220,7 @@ generated: ./Addrbook.xcodeproj
 
 [Swift Package Manager 깃허브][5]
 
-[1]:	"소스 코드"
+[1]:http://github.com/whitehobbit/cocoapodsEx	"소스 코드"
 [2]:https://www.sourcetreeapp.com/	"SourceTree 공식 홈페이지"
 [3]:https://cocoapods.org	"Cocoapods 공식 홈페이지"
 [4]: https://swift.org/package-manager/	"Swift Package Manager 공식 홈페이지"
