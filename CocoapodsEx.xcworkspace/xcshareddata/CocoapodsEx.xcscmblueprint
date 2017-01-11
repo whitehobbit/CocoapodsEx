@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4CC853A69AAC2770A1100BEB6ED2273461D55F8C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A460C82384F9FD7F1CF24F434E9A9C807134C1EF" : 9223372036854775807,
+    "4CC853A69AAC2770A1100BEB6ED2273461D55F8C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "25CB6E88-34D4-4E2D-8F94-EB697E64BE36",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A460C82384F9FD7F1CF24F434E9A9C807134C1EF" : "..",
+    "4CC853A69AAC2770A1100BEB6ED2273461D55F8C" : "CocoapodsEx\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CocoapodsEx",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CocoapodsEx.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/whitehobbit\/CocoapodsEx.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4CC853A69AAC2770A1100BEB6ED2273461D55F8C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/whitehobbit\/FhirConsoleApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A460C82384F9FD7F1CF24F434E9A9C807134C1EF"
+    }
+  ]
+}

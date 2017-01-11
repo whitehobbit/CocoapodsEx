@@ -1,14 +1,11 @@
 ---
 layout: post
-
 title: git / github / Xcode Package Manager
-
-tags: ios, swift, whitehobit, git, github, Xcode Package Manager, cocoapods, Swift Package Manager
+tags: ios swift whitehobit git github Xcode_Package_Manager cocoapods Swift_Package_Manager
 ---
-
 > 이 문서는 Xcode에서 git, github, Xcode Package Manager를 사용하는 방법을 다루고 있다.
 >
-> 작성자: *임하빈, 마지막 수정: 2017.01.06*
+> 작성자: *임하빈, 마지막 수정: 2017.01.11*
 
 # git / github / Xcode Package Manager
 
@@ -44,9 +41,11 @@ Xcode에서 프로젝트를 생성하고 로컬 git을 생성한 이후, github�
 
 **SourceTree 어플리케이션 사용**
 
-`SourceTree`는 `At`사의 git Client로 로컬 저장소와 원격 저장소를 사용하는 git을 관리할 수 있게 해주는 프로그램이다. 다운로드는  [SourceTree 공식 홈페이지][2] 여기서 받을 수 있다.
+`SourceTree`는 `Atlassian`사의 git Client로 로컬 저장소와 원격 저장소를 사용하는 git을 관리할 수 있게 해주는 프로그램이다. 다운로드는  [SourceTree 공식 홈페이지][2] 여기서 받을 수 있다.
 
 Xcode에서 프로젝트를 생성하고 로컬 git을 생성한 이후, `SouceTree`를 이용해 로컬 git을 불러오고 `Publish to remote`를 하고 github를 선택하면 된다. 
+
+
 
 ## 2. Xcode Package Manager
 
@@ -130,7 +129,7 @@ $ pod update
 
 
 
-### 2.2 Swift Package Mager
+### 2.2 Swift Package Manager
 
 스위프트 패키지 매니저는 Apple이 공식적으로 지원하는 라이브러리 관리 툴로, 스위프트로 작성해서 사용한다.
 
@@ -144,7 +143,7 @@ $ pod update
 
 스위프트 패키지 매니저는 기본적으로 터미널을 통해 사용한다.(현재까지는 Xcode로 사용이 불가능하다.)
 
-(1) Xcode로 iOS 프로젝트를 생성한 후, 해당 프로젝트 폴더에서 `swift pakage init` 명령어를 사용해 스위프트 패키지 매니저를 세팅한다.
+(1) Xcode로 프로젝트를 생성한 후, 해당 프로젝트 폴더에서 `swift pakage init` 명령어를 사용해 스위프트 패키지 매니저를 세팅한다.
 
 ``` shell
 $ swift pakage init
@@ -210,7 +209,7 @@ $ swift package generate-xcodeproj
 generated: ./Addrbook.xcodeproj
 ```
 
-(4) 생성된 `Addrbook.xcodeproj` 파일을 열어 build setting의 Library Search Paths에 ${PROJECT_DIR} recursive 설정을 추가한다.
+(4) 생성된 `Addrbook.xcodeproj` 파일을 열어 `build setting`의 `Library Search Paths`에 `${PROJECT_DIR}` `recursive` 설정을 추가한다.
 
 디펜던시가 업데이트되거나 디펜던시를 추가해야할 경우, `swift pakage update` 명령어를 사용한다.
 
